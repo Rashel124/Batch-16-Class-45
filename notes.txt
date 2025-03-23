@@ -1,0 +1,93 @@
+
+1. for loop
+2. foreach loop
+3. while loop
+4. do while loop
+
+========================for loop======================================
+
+for(initialize; condition/range; increment/decrement){
+
+    //Statement........
+}
+
+for(let i=0; i<=4; i++){
+    console.log("Hello world");
+}
+
+for(let $i=0; $i<=4; $i++){
+    echo "Hello world";
+}
+
+
+==============================while Loop==================================
+
+//While Loop..................
+
+initialize;
+
+while(condition/range){
+    //Statement........
+    //increment/decrement.....
+}
+
+$i = 0;
+
+while($i<=4){
+    echo "Hello World";
+    $i++;
+}
+
+===============================//do while loop==================================...
+
+initialize;
+
+do{
+    //Statement...
+    //increment/decrement..
+}
+
+while(condition/range);
+
+$k = 0;
+
+do{
+    echo "Hello World";
+    $k++;
+}
+
+while($i<=4);
+
+=============================//foreach loop==============================...
+
+$indexArray = [34, 56, 90, 100, 34];
+
+foreach($indexArray as $element){ //34, 56, 90..
+    echo $element;
+}
+
+===================//if/else conditional statement=================...
+
+if(condition){
+    //Statement...
+}
+
+elseif(condition){
+    //Statement...
+}
+
+elseif(condition){
+    //Statement...
+}
+
+else{
+    //Statement...
+}
+
+============================Function............................
+
+function functionName(){
+    //Statement...
+}
+
+functionName();
